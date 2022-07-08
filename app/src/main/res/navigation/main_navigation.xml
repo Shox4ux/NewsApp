@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.mynewsapp.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_moreDietailsFragment"
+            app:destination="@id/moreDietailsFragment"
+            app:popUpTo="@id/moreDietailsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.example.mynewsapp.ui.fragments.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/savedFragment"
+        android:name="com.example.mynewsapp.ui.fragments.SavedFragment"
+        android:label="fragment_saved"
+        tools:layout="@layout/fragment_saved" />
+    <fragment
+        android:id="@+id/moreDietailsFragment"
+        android:name="com.example.mynewsapp.ui.fragments.MoreDetailsFragment"
+        android:label="fragment_more_dietails"
+        tools:layout="@layout/fragment_more_dietails" >
+        <argument
+            android:name="newsData"
+            app:argType="com.example.mynewsapp.core.models.Article" />
+        <action
+            android:id="@+id/action_moreDietailsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

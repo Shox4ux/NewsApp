@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyNewsApp2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.192" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyNewsApp2/app/src/main/res/drawable/bottom_nav_bg.xml" value="0.193" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyNewsApp2/app/src/main/res/drawable/pop_bg.xml" value="0.193" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyNewsApp2/app/src/main/res/font/amaranth_bold.xml" value="0.29635416666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyNewsApp2/app/src/main/res/font/averia_gruesa_libre.xml" value="0.29635416666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyNewsApp2/app/src/main/res/font/averia_libre_bold.xml" value="0.29635416666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyNewsApp2/app/src/main/res/font/dela_gothic_one.xml" value="0.29635416666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyNewsApp2/app/src/main/res/layout-v28/item_test.xml" value="0.2545289855072464" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyNewsApp2/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyNewsApp2/app/src/main/res/layout/fragment_category.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyNewsApp2/app/src/main/res/layout/fragment_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyNewsApp2/app/src/main/res/layout/fragment_more_dietails.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyNewsApp2/app/src/main/res/layout/fragment_saved.xml" value="0.2545289855072464" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyNewsApp2/app/src/main/res/layout/item_in_trend.xml" value="0.2545289855072464" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyNewsApp2/app/src/main/res/layout/item_popular.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyNewsApp2/app/src/main/res/layout/item_test.xml" value="0.2545289855072464" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyNewsApp2/app/src/main/res/menu/main_bottom_menu.xml" value="0.26614583333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
